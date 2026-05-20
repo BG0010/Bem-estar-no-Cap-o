@@ -3,14 +3,14 @@
 html { scroll-behavior: smooth; }
 body {
   font-family: 'Poppins', system-ui, sans-serif;
-  color: #213524;
-  background: #fbfff7;
+  color: #00000;
+  background: #f7f7f7;
   line-height: 1.6;
 }
 a { color: inherit; text-decoration: none; }
 :root {
-  --green-1: #2f7a3e;
-  --green-2: #4caf50;
+  --green-1: #008000;
+  --green-2: #38b000;
   --green-soft: #e6f5e1;
   --yellow: #fff3a0;
   --yellow-soft: #fffbe0;
@@ -23,7 +23,7 @@ a { color: inherit; text-decoration: none; }
 /* ===== Navbar ===== */
 .navbar {
   position: fixed; top: 0; left: 0; right: 0;
-  background: rgba(255,255,255,0.85);
+  background: #e6f5e;
   backdrop-filter: blur(10px);
   z-index: 100;
   transition: all .3s ease;
